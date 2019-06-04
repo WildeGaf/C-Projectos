@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormSQL", "FormSQL\FormSQL.csproj", "{9B800D82-2499-40A2-B042-CF300DAD18F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{90CF836B-AD24-44C9-95D9-B573578F8448}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B800D82-2499-40A2-B042-CF300DAD18F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B800D82-2499-40A2-B042-CF300DAD18F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B800D82-2499-40A2-B042-CF300DAD18F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B800D82-2499-40A2-B042-CF300DAD18F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CF836B-AD24-44C9-95D9-B573578F8448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CF836B-AD24-44C9-95D9-B573578F8448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CF836B-AD24-44C9-95D9-B573578F8448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CF836B-AD24-44C9-95D9-B573578F8448}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34D530C8-44F2-4F4C-8DA8-210E620FA46F}
+	EndGlobalSection
+EndGlobal

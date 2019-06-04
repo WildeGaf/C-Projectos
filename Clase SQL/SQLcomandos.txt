@@ -1,0 +1,13 @@
+--select * from Provincias where id = 25;
+
+--SELECT INTO Provincias (nombre) VALUES('ProvinciaX'), ('ProvinciasZ');
+
+--DELETE FROM Provincias WHERE id = 2;
+
+--UPDATE Provincias SET Nombre = 'CATAMARCA' WHERE id = 25;
+
+--SELECT * FROM Localidades WHERE Nombre LIKE 'A%'; --  _ = un caracter  % = Todo lo q continua
+
+SELECT l.Nombre AS Nombre_Localidad, p.Nombre AS Nombre_Provincia 
+FROM Localidades l, Provincias p 
+Where l.ProvinciasId = p.Id;
